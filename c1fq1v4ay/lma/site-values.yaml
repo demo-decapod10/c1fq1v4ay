@@ -157,6 +157,7 @@ charts:
     querier.stores:
     - prometheus-operated.lma.svc.$(clusterName):10901
     - a15c73c938ec44400a221fcedb470981-1241416942.ap-northeast-2.elb.amazonaws.com:10901
+    - ad06fa1c5fac14a0fab638aa06a346e0-1842079414.ap-northeast-2.elb.amazonaws.com:10901
     bucketweb.enabled: $(thanosPrimaryCluster)
     bucketweb.nodeSelector: $(nodeSelector)
     compactor.enabled: $(thanosPrimaryCluster)
